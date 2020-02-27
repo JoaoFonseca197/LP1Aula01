@@ -12,15 +12,19 @@ namespace TiposVarios
             num1 = 3;
             num2 = 4;
             char Iene ='\u00A5';
+            char Circle  = '\u058D';
             float numfloat1 = 3.666f;
             float numfloat2= 3.555f;
-            char Circle  = '\u058D';
+            bool Correct = true;
+            bool Incorrect = false ;
             Console.WriteLine(num1);
             Console.WriteLine(num2);
             Console.WriteLine(Iene);
             Console.WriteLine(Circle);
             Console.WriteLine(numfloat1);
             Console.WriteLine(numfloat2);
+            Console.WriteLine(Correct);
+            Console.WriteLine(Incorrect);
         }
     }
 }
